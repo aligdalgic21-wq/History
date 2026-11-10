@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: blue;
+    font-family: "Georgia", serif;
+}
+
+img {
+    display: block;
+    margin: 0 auto 25px auto;/* 0 top/bottom, automatic equal space left/right */
+}
+
+button{
+    color: white;
+    background-color: red;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: center; /* Options: flex-start (left), center, flex-end (right) */
+    align-items: center;     /* Vertically centers if the wrapper has a set height */
+}
